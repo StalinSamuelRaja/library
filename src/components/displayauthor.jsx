@@ -32,9 +32,9 @@ const Authorsdisplay=()=>{
            <div className="card-body">
              <h2 className="card-title text-red-500 "> <kbd className="kbd bg-accent-content">Name: {data.name}</kbd></h2>
              <h3 className="card-title text-purple-300 "><kbd className="kbd bg-accent-content">Born on :{data.birthday}</kbd> </h3>
-             <p className="card-title text-green-600" > Bio :{data.description} </p>
+             <p className="card-title secondary-content" > Bio :{data.description} </p>
              <div className="card-actions justify-end">
-               <button className="btn btn-accent" onClick={()=>navigate(`/authoredit/${data.id}`)}>Edit </button>
+               <button className="btn btn-success" onClick={()=>navigate(`/authoredit/${data.id}`)}>Edit </button>
                <button className="btn btn-error" onClick={()=>deletebtn(data.id)}>Delete</button>
              </div>
            </div>
