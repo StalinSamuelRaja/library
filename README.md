@@ -1,8 +1,20 @@
-# React + Vite
+# Library Dashboard
+My Library Dashboard is a web application built using React.js, Redux, and React Router. It allows you to manage authors and books in your library in a easy way.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- Click on an author to view author details
+- Click on a book to view book details
+- Add new authors
+- Add new books
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+- React.js for building the frontend
+- Redux for state management
+- React Router for routing
+- Formik and Yup for form handling and validation
+
+
+### deployed Link 
+[Click to open](https://peaceful-bienenstitch-0fc354.netlify.app/)
